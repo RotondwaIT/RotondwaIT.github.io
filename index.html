@@ -5,77 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotondwa IT Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; background: #ffffff; color: #000; }
-        header { background: #222; color: #fff; padding: 20px; text-align: center; }
-        nav { background: #444; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
-        nav a:hover { text-decoration: underline; }
-        section { padding: 40px; max-width: 900px; margin: auto; }
-        h2 { border-bottom: 2px solid #444; padding-bottom: 5px; }
-        ul { line-height: 1.8; }
-        footer { background: #222; color: white; text-align: center; padding: 10px; margin-top: 40px; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        section {
+            background: #fff;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e1e1e;
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            font-size: 1.05em;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .button {
+            background: #0077b5;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #005c8f;
+        }
+
+        .projects a {
+            font-weight: bold;
+            color: #222;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Raludzingana Rotondwa Esther — IT Portfolio</h1>
-    <p>Aspiring IT & Cybersecurity Professional</p>
+    <h1>Rotondwa Raludzingana - IT & Cybersecurity Portfolio</h1>
+    <p>Aspiring IT and Cybersecurity Professional | Technical Support | Networking | Systems</p>
 </header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#contact">Contact</a>
-</nav>
 
 <section id="about">
     <h2>About Me</h2>
-    <p>I am a motivated and tech-savvy IT professional with hands-on experience in computer systems, networking, and technical support. I have completed foundational courses in IT and Cybersecurity through Cisco Networking Academy, gaining practical knowledge in system safeguards, threat analysis, network defense, and safe IT practices. I enjoy troubleshooting hardware and software issues, optimizing networks, and learning new technologies. With strong analytical thinking, problem-solving, and teamwork skills, I am eager to contribute to IT projects, cybersecurity initiatives, and technology solutions across diverse roles.</p>
+    <p>I am a motivated and tech-savvy IT professional with hands-on experience in computer systems, networking, and technical support. I have completed foundational courses in IT and cybersecurity through Cisco Networking Academy, gaining practical knowledge in system safeguards, threat analysis, network defense, and safe IT practices. I enjoy troubleshooting hardware and software issues, optimizing networks, and learning new technologies. With strong analytical thinking, problem-solving, and teamwork skills, I am eager to contribute to IT projects, cybersecurity initiatives, and technology solutions across diverse roles.</p>
 </section>
-
-    <div style="text-align:center; margin: 30px 0;">
-    <a href="ROTONDWA_CV.pdf" download class="button" style="background:#222; color:#fff; padding:12px 25px; text-decoration:none; border-radius:5px;">
-        📄 Download My CV
-    </a>
-</div>
-
 
 <section id="skills">
     <h2>Skills</h2>
     <ul>
         <li><strong>Networking & Connectivity:</strong> IP configuration, ping tests, router troubleshooting</li>
-        <li><strong>System Administration:</strong> Windows OS support, software installation, updates</li>
-        <li><strong>Technical Support:</strong> Diagnosing and troubleshooting hardware & software issues</li>
-        <li><strong>Productivity Tools:</strong> Microsoft Office (Word, Excel, PowerPoint), Google Workspace</li>
-        <li><strong>Programming & Data:</strong> Basic Python, data interpretation, technical reporting</li>
-        <li><strong>Cybersecurity:</strong> Threat analysis, network defense, safe IT practices, security principles</li>
+        <li><strong>System Administration:</strong> Windows OS basic administration, software installation, updates</li>
+        <li><strong>Technical Support:</strong> Troubleshooting hardware and software issues, problem diagnosis</li>
+        <li><strong>Productivity Tools:</strong> Microsoft Office, Google Workspace</li>
+        <li><strong>Programming & Data Handling:</strong> Basic Python, data interpretation, technical reporting</li>
+        <li><strong>Cybersecurity:</strong> System safeguards, threat analysis, network defense, ethical security</li>
         <li><strong>Soft Skills:</strong> Problem-solving, teamwork, communication, customer service, time management</li>
     </ul>
 </section>
 
-<section id="projects">
+<div style="text-align:center; margin: 30px 0;">
+    <a href="ROTONDWA_CV.pdf" download class="button">📄 Download My CV</a>
+</div>
+
+<section id="projects" class="projects">
     <h2>Projects</h2>
     <p><strong><a href="project1.html">Project 1:</a></strong> Home Network & Connectivity Analysis</p>
     <p><strong><a href="project2.html">Project 2:</a></strong> Windows System Diagnostics & IT Support Tools</p>
     <p><strong><a href="project3.html">Project 3:</a></strong> PC Hardware Components & Upgrade Plan</p>
-</section>
-
-
-<section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-        <li>Cisco — Introduction to Cybersecurity (2025)</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> raludzinganarotondwa@gmail.com</p>
-    <p><strong>Phone:</strong> 060 913 3316</p>
-    <p><strong>Location:</strong> Johannesburg, Gauteng, South Africa</p>
 </section>
 
 <footer>
@@ -86,7 +128,6 @@
     </p>
     <p>© 2025 Rotondwa IT Portfolio</p>
 </footer>
-
 
 </body>
 </html>
